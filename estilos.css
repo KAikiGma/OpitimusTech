@@ -46,11 +46,13 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
+    font: inter;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
+    font: inter;
 }
 
 .paragrafo{
@@ -60,10 +62,35 @@ ul li a{
     line-height: 30px;
     color: #667085;
     align-items: center;
+    font: inter;
 }
 
-.titulo2{
+.metricas-container{
+    font: inter;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.metricas-titulo{
+    font-size: 60px;
     color: #8e2424;
-    font-size: 50px;
-    line-height: 72px;
+}
+
+ .metricas-subtitulo{
+    font-size: 20px;
+    font: inter;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.metricas-texto{
+    color: #667085;
+    font-size: 15px;
+    line-height: 20px;
+    font: inter;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
