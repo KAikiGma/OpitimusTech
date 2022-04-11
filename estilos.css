@@ -3,7 +3,9 @@
     padding: 0px;
 }
 
-
+body{
+    font-family: 'Inter', sans-serif;
+}
 
 header{
     margin: 0 auto;
@@ -46,13 +48,11 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    font: inter;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
-    font: inter;
 }
 
 .paragrafo{
@@ -66,7 +66,6 @@ ul li a{
 }
 
 .metricas-container{
-    font: inter;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -79,18 +78,48 @@ ul li a{
 
  .metricas-subtitulo{
     font-size: 20px;
-    font: inter;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .metricas-texto{
     color: #667085;
     font-size: 15px;
     line-height: 20px;
-    font: inter;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.subtitulo2{
+    color: #8e2424;
+    display: flex;
+    background: #8E24240D;
+    border: 10px solid #8E24240D;
+    border-radius: 8px;
+    width: 100px;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragrafo2{
+    display: flex;
+    justify-content: space-around;
+    color: #667085;
+    font-size: 15px;
+}
+
+.imagem{
+    width: 1520px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
